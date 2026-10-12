@@ -1,0 +1,263 @@
+body {
+background: #ffffff;
+font-family:sans-serif;
+background: linear-gradient(to bottom, #7fffd4 0%, #ffffff 20%);
+}
+
+.page {
+width: 1200px;
+text-align: center;
+}
+
+.back {
+background: #7fffd4;
+  position: absolute;
+  height: 200px;
+　width: 100px;
+}
+
+.main {
+display: block;
+color: #000000;
+}
+
+.header {
+  padding: 0 20px;
+  position: relative;
+}
+
+.bun {
+margin-top: 5%;
+text-align: center;
+}
+
+.start-bun {
+text-align: center;
+}
+
+font.number {
+font-size: 30px;
+color: #f24949;
+}
+
+.nazo {
+text-align: center;
+}
+
+img.nazo {
+text-align: center;
+width: 80%;
+}
+
+.blank{
+    border:none;
+    border-bottom:2px solid #444;
+    background:transparent;
+    font-size:15px;
+    padding:2px 8px;
+    appearance:none;
+}
+
+.blank:invalid {
+    color: #a9a9a9;
+}
+
+.blank option {
+    color: #000;
+}
+
+/* ここから下がハンバーガーメニューに関するCSS */
+
+.icon {
+background: #4169e1;
+}
+  
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.drawer_open2 {
+  position: absolute;
+  right: 58px;
+  top: -8px;
+  z-index: 99;
+}
+
+/* ハンバーガーメニューのアイコン */
+.drawer_open span,
+.drawer_open span:before,
+.drawer_open span:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 25px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer_open2 span {
+　content: '';
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background: #3E3A39;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* 三本線の一番上の棒の位置調整 */
+.drawer_open span:before {
+  bottom: 10px;
+}
+
+/* 三本線の一番下の棒の位置調整 */
+.drawer_open span:after {
+  top: 10px;
+}
+
+img.infomation {
+margin-top: 10%;
+right: 5%;
+width: 90%;
+z-index: 100;
+position: absolute;
+display: none;
+box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* アイコンがクリックされたら色を変える */
+#drawer_input:checked ~ .drawer_open span {
+  background: #3E3A39;
+}
+
+#drawer_input:checked ~ .drawer_open span::before {
+  background: #3E3A39;
+}
+
+#drawer_input:checked ~ .drawer_open span::after {
+  background: #3E3A39;
+}
+
+#drawer_input:checked ~ .drawer_open2 span {
+  background: #ffffff;
+}
+
+#drawer_input:checked ~ .infomation {
+  display: block;
+　transition: 1s;
+}
+
+.nyuryoku {
+　display: flex;
+　justify-content: center;
+}
+
+.button {
+margin-left: 5%;
+margin-top: 10px;
+text-align: center;
+width: 400px;
+font-size: 25px;
+}
+
+.send-button {
+margin-top: 15px;
+text-align: center;
+font-size: 20px;
+color: #000;
+}
+
+.label-send {
+display: inline-block;
+  padding: 5px 30px;
+  background-color: #3E3A39;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.start {
+    width: 50%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.start:focus {
+    outline: 1px solid #fff;
+}
+
+.start::placeholder {
+    color: #666;
+}
+
+.clear-bun {
+size: 10px;
+text-align: center;
+}
+
+.normal-clear {
+font-size: 15px;
+margin-top: 50px;
+}
+
+.exstart-bun {
+opacity: 0;
+  display: none;
+  transition: all 1s;
+text-align: center;
+}
+
+.is-active {
+  opacity: 1;
+  display: block;
+}
+
+.play-ex {
+display: inline-block;
+  padding: 5px 30px;
+  background-color: #3E3A39;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.post {
+display: inline-block;
+  padding: 5px 30px;
+  background-color: #1DA1F2;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.clear {
+font-size: 100px;
+color: #fff;
+}
+
+.attention {
+display: none;
+}
+
