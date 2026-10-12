@@ -1,0 +1,329 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+<head>
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>発注ページ</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="hint.css"　type="text/css" media="all">
+	 <script src="index.js" defer></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body>
+
+<div class="main">
+
+	<p class="bun">需要と供給　ヒントサイト</p>
+
+<label for="1"><p class="one">▼発注ページにログインする前</p></label>
+
+<span class="hint before">
+<label for="3"><p class="main-title">▼1.言語の謎</p></label>
+<span class="hint a">
+<p class="three" id="a">それぞれ英訳すると"her trust"と"start line"になります。</p>
+<label for="4"><p class="title" id="a">▼1.言語の謎の答え</p></label>
+</span>
+<span class="hint b">
+<p class="three" id="b">英訳をカタカナで「ハートラスト」「スタートライン」と埋め、丸数字を順に読むと「トラスト」となります。</p>
+</span>
+
+<label for="5"><p class="main-title">▼2.絵の謎</p></label>
+<span class="hint c">
+<p class="three" id="c">それぞれの絵の「色」と「何の果物か」を考えましょう。</p>
+<label for="6"><p class="title" id="c">▼2.絵の謎のヒント続き</p></label>
+</span>
+<span class="hint d">
+<p class="three" id="d">一番上から考えましょう。絵は「パープル」の「グレープ」を表しています。そして、赤矢印の先は「パール」青矢印の先は「グレー」を表しているようです。</p>
+<label for="7"><p class="title" id="d">▼2.絵の謎の答え</p></label>
+</span>
+<span class="hint e">
+<p class="three" id="e">？の場所は、「キウイ」から「キ」を取って「ウイ」、ピンクから「ピ」を取って「ンク」が残るので、続けて読むと答えは「ウインク」となります。</p>
+</span>
+
+<label for="8"><p class="main-title">▼3.しりとりの謎</p></label>
+<span class="hint f">
+<p class="three" id="f">純粋にしりとりを完成させる必要があります。「そ」で終わる言葉が無いので、1つ目の言葉は「そそう」であるとわかります。</p>
+<label for="9"><p class="title" id="f">▼3.しりとりの謎の答え</p></label>
+</span>
+<span class="hint g">
+<p class="three" id="g">順番につなぐと、そそう→うしんぼう→うんてんし→しょーとけーき→きこうたい→いえうつり→りょかっき→きんぼしとなります。偶数番目の2文字目を順に読むと答えは「しょえん」となります。</p>
+</span>
+
+<label for="10"><p class="main-title">▼4.算数の謎</p></label>
+<span class="hint h">
+<p class="three" id="h">同じ数字には同じ文字が入ります。イラストは上から「いし」「くし」「えす」のようです。</p>
+<label for="11"><p class="title" id="h">▼4.算数の謎のヒント続き</p></label>
+</span>
+<span class="hint i">
+<p class="three" id="i">背景にある9マスで魔法陣が作れそうです。また、枠が上下左に少し伸びていることから、何かの表の右端の9マスでもありそうです。</p>
+<label for="12"><p class="title" id="i">▼4.算数の謎の答え</p></label>
+</span>
+<span class="hint j">
+<p class="three" id="j">背景9マスは50音表のあ～さ行の中3段を抜き出している。ここで魔法陣を作り、989の場所を順に読むと「きせき」となります。</p>
+</span>
+
+<label for="13"><p class="main-title">▼5.あみだの謎</p></label>
+<span class="hint k">
+<p class="three" id="k">あみだに従って「はかせいいせいか」という文字列を並び替えましょう。</p>
+<label for="14"><p class="title" id="k">▼5.あみだの謎の答え</p></label>
+</span>
+<span class="hint l">
+<p class="three" id="l">あみだの始点8つに「はかせいいせいか」を当てはめ、あみだに従って並び替えると「せいかいはせかい」となるので、答えは「せかい」になります。</p>
+</span>
+
+<label for="15"><p class="main-title">▼6.詩の謎</p></label>
+<span class="hint m">
+<p class="three" id="m">指示に従って、見えている4行の最初と最後の文字を消しましょう。ひらがなにしてから考えるとわかりやすいです。</p>
+<label for="16"><p class="title" id="m">▼6.詩の謎の答え</p></label>
+</span>
+<span class="hint n">
+<p class="three" id="n">見えている4行の最初と最後の文字を消すと上から「おととい」「きのう」「？」「あした」「あさって」となるので、？に当てはまるのは「きょう」となります。</p>
+</span>
+
+<label for="17"><p class="main-title">▼7.図形の謎</p></label>
+<span class="hint o">
+<p class="three" id="o">謎の図形は線対称のようです。左半分だけに注目してみましょう。</p>
+<label for="18"><p class="title" id="o">▼7.図形の謎の答え</p></label>
+</span>
+<span class="hint p">
+<p class="three" id="p">図形の左だけ見るとひらがなになっており、右のイラストを表す言葉になっています。答えは「といし」になります。</p>
+</span>
+
+<label for="19"><p class="main-title">▼8.迷路の謎</p></label>
+<span class="hint q">
+<p class="three" id="q">指示の通り最短で辿り、通った文字を読みましょう。ビーとシーはアルファベットを指しているわけではなさそうです。</p>
+<label for="20"><p class="title" id="q">▼8.迷路の謎の答え</p></label>
+</span>
+<span class="hint r">
+<p class="three" id="r">ビー（蜂）、からシー（海）へ辿ると「MOON」の文字を通るので、答えは「つき」となります。</p>
+</span>
+
+<label for="21"><p class="main-title">▼9.難解な謎</p></label>
+<span class="hint s">
+<p class="three" id="s">青のイラストは「きし」赤のイラストは「てつ」を表しています。</p>
+<label for="22"><p class="title" id="s">▼9.難解な謎のヒント続き</p></label>
+</span>
+<span class="hint t">
+<p class="three" id="t">謎は「イからチへ辿るとキシを、トからチへ辿るとテツを通る」ということを表しています。</p>
+<label for="23"><p class="title" id="t">▼9.難解な謎の答え</p></label>
+</span>
+<span class="hint u">
+<p class="three" id="u">50音表上で2つの文字を結んだとき、通る文字を読むという謎でした。イからトを辿ると「くせ」となります。</p>
+</span>
+
+<label for="24"><p class="main-title">▼まとめ謎</p></label>
+<span class="hint v">
+<p class="three" id="v">まとめ謎は1枚で完結しています。1～4の数字の下にある文字は、全て埋めた9問の答えに含まれているようです。</p>
+<label for="25"><p class="title" id="v">▼まとめ謎の答え</p></label>
+</span>
+<span class="hint w">
+<p class="three" id="w">ズバリ、1～4の数字は、その下の文字が答えの中に何回登場しているかを表しています。この法則から赤は「か」青は「せ」黄は「い」を表すので、答えは「せいかい」となります。</p>
+</span>
+</span>
+
+<label class="label-btn1" for="2"><p class="oneb">▼発注ページにログインした後</p></label>
+
+<span class="hint after">
+<label for="26"><p class="main-title">▼テンプラウィークからの発注</p></label>
+<span class="hint x">
+<p class="three" id="x">初回公演、つまり「初演」にぴったりな謎を送りましょう。</p>
+<label for="27"><p class="title" id="x">▼テンプラウィークの解決法</p></label>
+</span>
+<span class="hint y">
+<p class="three" id="y">「しょえん」が答えになっているしりとりの謎を送りましょう。</p>
+</span>
+
+<label for="28"><p class="main-title">▼OCRAPからの発注</p></label>
+<span class="hint z">
+<p class="three" id="z">「脅威ラスト」をひらがなにして考えましょう。謎は複数同時に送ることもできます。</p>
+<label for="29"><p class="title" id="z">▼OCRAPの解決法</p></label>
+</span>
+<span class="hint aa">
+<p class="three" id="aa">「きょう」と「イラスト」が答えになる2問を送りましょう。</p>
+</span>
+
+<label for="30"><p class="main-title">▼めだかのスクールからの発注</p></label>
+<span class="hint ab">
+<p class="three" id="ab">1週間の要素、つまり「月～日」を全て含む謎が必要です。この条件を満たしていれば、その要素は「文字」でなくてもよさそうです。</p>
+<label for="31"><p class="title" id="ab">▼めだかのスクールの解決法</p></label>
+</span>
+<span class="hint ac">
+<p class="three" id="ac">日、月、火、水、木、金、土の全てのイラストを含む、迷路の謎を送りましょう。</p>
+</span>
+
+<label for="32"><p class="main-title">▼ワンニャーからの発注</p></label>
+<span class="hint ad">
+<p class="three" id="ad">元々の謎や答えをそのまま使うだけでは解決できなさそうです。謎の組み合わせで解決できないでしょうか。</p>
+<label for="33"><p class="title" id="ad">▼ワンニャーのヒントの続き</p></label>
+</span>
+<span class="hint ae">
+<p class="three" id="ae">愛、では難しそうなので"LOVE"が答えになる謎を作れないでしょうか。</p>
+<label for="34"><p class="title" id="ae">▼ワンニャーのヒントの続き</p></label>
+</span>
+<span class="hint af">
+<p class="three" id="af">迷路の謎を使えばLOVEを導けそうです。あと1問組み合わせることで、迷路の謎の指示を変化させられないでしょうか。</p>
+<label for="35"><p class="title" id="af">▼ワンニャーの解決法</p></label>
+</span>
+<span class="hint ag">
+<p class="three" id="ag">迷路の謎と難解な謎を組み合わせることで、迷路の中の「からい」イラストから「シート」のイラストへ辿る指示に変化できそうです。こうして「LOVE（愛）」を答えとする謎を作り出せます。</p>
+</span>
+
+<label for="36"><p class="main-title">▼RIDERからの発注</p></label>
+<span class="hint ah">
+<p class="three" id="ah">謎の意図としては「スペードの上、ハートの右、ダイヤの左、クラブの下を順に読むことで、4文字の答えが導かれる」というもののようです。</p>
+<label for="37"><p class="title" id="ah">▼RIDERのヒント続き</p></label>
+</span>
+<span class="hint ai">
+<p class="three" id="ai">謎の中にトランプのマークに見えるものが含まれるものはないでしょうか。ハート、ダイヤがわかりやすそうです。</p>
+<label for="38"><p class="title" id="ai">▼RIDERのヒント続き</p></label>
+</span>
+<span class="hint aj">
+<p class="three" id="aj">言語の謎にハート、図形の謎にダイヤが含まれています。左右に対応する文字を拾うと、答えは「●らん●」になりそうです。</p>
+<label for="39"><p class="title" id="aj">▼RIDERのヒント続き</p></label>
+</span>
+<span class="hint ak">
+<p class="three" id="ak">こうなってくると、答えは「とらんぷ」にしたいですね。残りのスペードとクラブは、逆に拾うべき文字である「と」「ぷ」を探すことで見つけられるかもしれません。</p>
+<label for="40"><p class="title" id="ak">▼RIDERの解決法</p></label>
+</span>
+<span class="hint al">
+<p class="three" id="al">難解な謎の騎士のイラストにスペード、その上に「と」、言語の謎にハート、その右に「ら」、図形の謎にダイヤ、その左に「ん」、絵の謎のブドウの中に逆さまのクラブ、その下に「ぷ」の文字を見つけることができます。これら4問の謎があれば「トランプ」という答えを導けます。</p>
+</span>
+
+<label for="41"><p class="main-title">▼DETOXYからの発注</p></label>
+<span class="hint am">
+<p class="three" id="am">スケルトンには9つの言葉が埋まりそうです。であれば、謎は9問必要そうです。</p>
+<label for="42"><p class="title" id="am">▼DETOXYのヒント続き</p></label>
+</span>
+<span class="hint an">
+<p class="three" id="an">5つ以上の発送には費用がかかってしまい、DETOXYさんは困ります。9問をまとめて送る方法はないでしょうか。</p>
+<label for="43"><p class="title" id="an">▼DETOXYのヒント続き</p></label>
+</span>
+<span class="hint ao">
+<p class="three" id="ao">9問を網羅したものがあれば、それを1つ送るだけで解決しそうです。</p>
+<label for="44"><p class="title" id="ao">▼DETOXYのヒント続き</p></label>
+</span>
+<span class="hint ap">
+<p class="three" id="ap">ズバリ、目録そのものを送ることができれば、1つの発送で9問を送ることができます。目録を送る方法を考えましょう。</p>
+<label for="45"><p class="title" id="ap">▼DETOXYのヒント続き</p></label>
+</span>
+<span class="hint aq">
+<p class="three" id="aq">送るものの選択方法を振り返りましょう。送りたいものの左上にある四角いマークを選択することで発送を行ってきました。目録の左上にはどのようなマークがあるでしょうか。</p>
+<label for="46"><p class="title" id="aq">▼DETOXYのヒント続き</p></label>
+</span>
+<span class="hint ar">
+<p class="three" id="ar">目録という文字の「目」の文字が、そのマークにあたります。マークと捉えるならば、角丸の四角に横線が3本...どこかで見覚えはないでしょうか。</p>
+<label for="47"><p class="title" id="ar">▼DETOXYの解決法</p></label>
+</span>
+<span class="hint as">
+<p class="three" id="as">発注ページの右上にあるメニューボタンが、目録の左上のマークと一致しています。メニューのボタンを押して発送ボタンを押すことで、目録ごと9問の謎をまとめて発送できます。</p>
+</span>
+
+<label for="48"><p class="main-title">▼？？？からの発注（EX）</p></label>
+<span class="hint at">
+<p class="three" id="at">あなたが解き終えた持ち帰り謎の「まとめ謎」が無くなってしまったようです。9問の謎を解き終えたあと、答えである「せいかい」を導ける謎を送る必要があります。</p>
+<label for="49"><p class="title" id="at">▼夕立にかさなってのヒント続き</p></label>
+</span>
+<span class="hint au">
+<p class="three" id="au">先方がたまたま持っている指示文には特徴的な枠がついています。これに似た枠がある謎はないでしょうか。</p>
+<label for="50"><p class="title" id="au">▼夕立にかさなってのヒント続き</p></label>
+</span>
+<span class="hint av">
+<p class="three" id="av">似た枠のある謎が見つかったら、実際に指示文に従ってみましょう。謎が変化します。</p>
+<label for="51"><p class="title" id="av">▼夕立にかさなってのヒント続き</p></label>
+</span>
+<span class="hint aw">
+<p class="three" id="aw">変化したあと、さらに指示のようなものが出てきます。小謎9問はすでに解かれている状況であることを考え、さらに最後の指示に従って答えが導けるか検証してみましょう。</p>
+</span>
+</span>
+
+
+<div class="box">
+<input type="checkbox" value="before" class="checkbox" id="1">
+<input type="checkbox" value="after" class="checkbox"id="2">
+<input type="checkbox" value="a" class="checkbox" id="3">
+<input type="checkbox" value="b" class="checkbox" id="4">
+<input type="checkbox" value="c" class="checkbox" id="5">
+<input type="checkbox" value="d" class="checkbox" id="6">
+<input type="checkbox" value="e" class="checkbox" id="7">
+<input type="checkbox" value="f" class="checkbox" id="8">
+<input type="checkbox" value="g" class="checkbox" id="9">
+<input type="checkbox" value="h" class="checkbox" id="10">
+<input type="checkbox" value="i" class="checkbox" id="11">
+<input type="checkbox" value="j" class="checkbox" id="12">
+<input type="checkbox" value="k" class="checkbox" id="13">
+<input type="checkbox" value="l" class="checkbox" id="14">
+<input type="checkbox" value="m" class="checkbox" id="15">
+<input type="checkbox" value="n" class="checkbox" id="16">
+<input type="checkbox" value="o" class="checkbox" id="17">
+<input type="checkbox" value="p" class="checkbox" id="18">
+<input type="checkbox" value="q" class="checkbox" id="19">
+<input type="checkbox" value="r" class="checkbox" id="20">
+<input type="checkbox" value="s" class="checkbox" id="21">
+<input type="checkbox" value="t" class="checkbox" id="22">
+<input type="checkbox" value="u" class="checkbox" id="23">
+<input type="checkbox" value="v" class="checkbox" id="24">
+<input type="checkbox" value="w" class="checkbox" id="25">
+<input type="checkbox" value="x" class="checkbox" id="26">
+<input type="checkbox" value="y" class="checkbox" id="27">
+<input type="checkbox" value="z" class="checkbox" id="28">
+<input type="checkbox" value="aa" class="checkbox" id="29">
+<input type="checkbox" value="ab" class="checkbox" id="30">
+<input type="checkbox" value="ac" class="checkbox" id="31">
+<input type="checkbox" value="ad" class="checkbox" id="32">
+<input type="checkbox" value="ae" class="checkbox" id="33">
+<input type="checkbox" value="af" class="checkbox" id="34">
+<input type="checkbox" value="ag" class="checkbox" id="35">
+<input type="checkbox" value="ah" class="checkbox" id="36">
+<input type="checkbox" value="ai" class="checkbox" id="37">
+<input type="checkbox" value="aj" class="checkbox" id="38">
+<input type="checkbox" value="ak" class="checkbox" id="39">
+<input type="checkbox" value="al" class="checkbox" id="40">
+<input type="checkbox" value="am" class="checkbox" id="41">
+<input type="checkbox" value="an" class="checkbox" id="42">
+<input type="checkbox" value="ao" class="checkbox" id="43">
+<input type="checkbox" value="ap" class="checkbox" id="44">
+<input type="checkbox" value="aq" class="checkbox" id="45">
+<input type="checkbox" value="ar" class="checkbox" id="46">
+<input type="checkbox" value="as" class="checkbox" id="47">
+<input type="checkbox" value="at" class="checkbox" id="48">
+<input type="checkbox" value="au" class="checkbox" id="49">
+<input type="checkbox" value="av" class="checkbox" id="50">
+<input type="checkbox" value="aw" class="checkbox" id="51">
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="hint.js"></script>
+  </body>
+
