@@ -1,22 +1,23 @@
 <!DOCTYPE html5>
-<html lang=gjah>
+<html lang=â€œjaâ€>
+	<meta charset="UTF-8">
 
 <head>
     <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ŠÇ—ˆõƒy[ƒW</title>
+    <title>ç®¡ç†å“¡ãƒšãƒ¼ã‚¸</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQuery–{‘Ì‚Ì“Ç‚Ýž‚Ý -->
-	 <link rel="stylesheet" href="index.css"@type="text/css" media="all">
+	<!-- jQueryæœ¬ä½“ã®èª­ã¿è¾¼ã¿ -->
+	 <link rel="stylesheet" href="index.css"ã€€type="text/css" media="all">
 	 <script src="index.js" defer></script>
 
-<!-- ”ƒŠƒ“ƒN‚ÌƒXƒ€[ƒYƒXƒNƒ[ƒ‹ -->
+<!-- ï¼ƒãƒªãƒ³ã‚¯ã®ã‚¹ãƒ ãƒ¼ã‚ºã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« -->
 <script>
 $(function(){
-   // #‚ÅŽn‚Ü‚éƒŠƒ“ƒN‚ðƒNƒŠƒbƒN‚µ‚½‚çŽÀs‚³‚ê‚Ü‚·
+   // #ã§å§‹ã¾ã‚‹ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰å®Ÿè¡Œã•ã‚Œã¾ã™
    $('a[href^=#]').click(function() {
-      // ƒXƒNƒ[ƒ‹‚Ì‘¬“x
-      var speed = 400; // ƒ~ƒŠ•b‚Å‹Lq
+      // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é€Ÿåº¦
+      var speed = 400; // ãƒŸãƒªç§’ã§è¨˜è¿°
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -39,7 +40,7 @@ $(function(){
 
 	<p class="bun"><img src="image/story2.png" class="story"></p>
 
-	<p class="start-bun">Žc‚è@<font class="number">5</font>@l‚Ì’²¸‘ÎÛ‚ª‚¢‚Ü‚·B</p>
+	<p class="start-bun">æ®‹ã‚Šã€€<font class="number">5</font>ã€€äººã®èª¿æŸ»å¯¾è±¡ãŒã„ã¾ã™ã€‚</p>
 	<div class="nazo">
 	<img src="image/answer1.png" class="nazo">
 	</div>
@@ -49,35 +50,35 @@ $(function(){
 <div class="nyuryoku">
 
 <p class="bun">
-  ‚±‚ÌˆÙ¯l‚ÍA
+  ã“ã®ç•°æ˜Ÿäººã¯ã€
   <select class="blank" id="q1" required>
-    <option value="" selected disabled>‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢</option>
-    <option>“_ü</option>
-    <option>’¼ü</option>
-    <option>‰~</option>
+    <option value="" selected disabled>é¸æŠžã—ã¦ãã ã•ã„</option>
+    <option>ç‚¹ç·š</option>
+    <option>ç›´ç·š</option>
+    <option>å††</option>
   </select>
-  ‚Ì<br>
+  ã®<br>
   <select class="blank" id="q2" required>
-    <option value="" selected disabled>‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢</option>
-    <option>‰E</option>
-    <option>’†</option>
-    <option>¶</option>
+    <option value="" selected disabled>é¸æŠžã—ã¦ãã ã•ã„</option>
+    <option>å³</option>
+    <option>ä¸­</option>
+    <option>å·¦</option>
   </select>
-  ‚ª
-@<select class="blank" id="q3" required>
-    <option value="" selected disabled>‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢</option>
-    <option>‹t‚³‚ÉŒ©‚¦‚é</option>
-    <option>Œ©‚¦‚È‚¢</option>
-    <option>“ñd‚ÉŒ©‚¦‚é</option>
+  ãŒ
+ã€€<select class="blank" id="q3" required>
+    <option value="" selected disabled>é¸æŠžã—ã¦ãã ã•ã„</option>
+    <option>é€†ã•ã«è¦‹ãˆã‚‹</option>
+    <option>è¦‹ãˆãªã„</option>
+    <option>äºŒé‡ã«è¦‹ãˆã‚‹</option>
   </select>
-@B
+ã€€ã€‚
 </p>
 
 <div class="send-button">
 
 <input type="button" id="send" onClick="link()" style="display:none">
 
-<label class="label-send" for="send"><span>‘—M</span></label>
+<label class="label-send" for="send"><span>é€ä¿¡</span></label>
 <p class="bun"></p>
 
 <div class="exstart-bun" id="ex">
@@ -88,7 +89,7 @@ $(function(){
 
 <input type="button" id="next" onClick="link()" style="display:none">
 
-<label class="label-send" for="next"><span>ŽŸ‚Ö</span></label>
+<label class="label-send" for="next"><span>æ¬¡ã¸</span></label>
 <p class="bun"></p>
 
 
