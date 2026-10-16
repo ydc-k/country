@@ -1,22 +1,23 @@
 <!DOCTYPE html5>
-<html lang=gjah>
+<html lang=â€œjaâ€>
+<meta charset="UTF-8">
 
 <head>
     <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>ŠÇ—ˆõƒy[ƒW</title>
+    <title>ç®¡ç†å“¡ãƒšãƒ¼ã‚¸</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQuery–{‘Ì‚Ì“Ç‚Ýž‚Ý -->
+	<!-- jQueryæœ¬ä½“ã®èª­ã¿è¾¼ã¿ -->
 	<link rel="stylesheet" media="(max-width: 500px)" href="index.css"><br><link rel="stylesheet" media="(min-width: 501px)" href="indexnone.css">
 	 <script src="index.js" defer></script>
 
-<!-- ”ƒŠƒ“ƒN‚ÌƒXƒ€[ƒYƒXƒNƒ[ƒ‹ -->
+<!-- ï¼ƒãƒªãƒ³ã‚¯ã®ã‚¹ãƒ ãƒ¼ã‚ºã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« -->
 <script>
 $(function(){
-   // #‚ÅŽn‚Ü‚éƒŠƒ“ƒN‚ðƒNƒŠƒbƒN‚µ‚½‚çŽÀs‚³‚ê‚Ü‚·
+   // #ã§å§‹ã¾ã‚‹ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰å®Ÿè¡Œã•ã‚Œã¾ã™
    $('a[href^=#]').click(function() {
-      // ƒXƒNƒ[ƒ‹‚Ì‘¬“x
-      var speed = 400; // ƒ~ƒŠ•b‚Å‹Lq
+      // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é€Ÿåº¦
+      var speed = 400; // ãƒŸãƒªç§’ã§è¨˜è¿°
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -31,7 +32,7 @@ $(function(){
 <body>
 
 <div class="attention">
-<p class="start-bun">ƒTƒCƒg‚ÍƒXƒ}[ƒgƒtƒHƒ“‚ÌcŒü‚«‚ÅŠJ‚¢‚Ä‚­‚¾‚³‚¢<br>¦‚±‚Ì‰æ–Ê‚Í“ä‰ð‚«‚É‚ÍˆêØŠÖŒW‚ ‚è‚Ü‚¹‚ñ</p>
+<p class="start-bun">ã‚µã‚¤ãƒˆã¯ã‚¹ãƒžãƒ¼ãƒˆãƒ•ã‚©ãƒ³ã®ç¸¦å‘ãã§é–‹ã„ã¦ãã ã•ã„<br>â€»ã“ã®ç”»é¢ã¯è¬Žè§£ãã«ã¯ä¸€åˆ‡é–¢ä¿‚ã‚ã‚Šã¾ã›ã‚“</p>
 </div>
 
 <div class="tate">
@@ -44,8 +45,8 @@ $(function(){
 
 	<p class="bun"><img src="image/story1.png" class="story"></p>
 
-	<p class="start-bun">–{“úA’²¸‘ÎÛ‚Ì“ü‘ŽÒ‚ª@<font class="number">5</font>@Œ‚ ‚è‚Ü‚·B</p>
-	<p class="start-bun">“ü‘R¸“ä‚ð‰ð‚«–¾‚©‚·‚ÆŒ»‚ê‚éŽ¿–â‚É“š‚¦A<br>‹Æ–±—pƒy[ƒW‚ÉƒƒOƒCƒ“‚µ‚Ä‚­‚¾‚³‚¢B</p>
+	<p class="start-bun">æœ¬æ—¥ã€èª¿æŸ»å¯¾è±¡ã®å…¥å›½è€…ãŒã€€<font class="number">5</font>ã€€ä»¶ã‚ã‚Šã¾ã™ã€‚</p>
+	<p class="start-bun">å…¥å›½å¯©æŸ»è¬Žã‚’è§£ãæ˜Žã‹ã™ã¨ç¾ã‚Œã‚‹è³ªå•ã«ç­”ãˆã€<br>æ¥­å‹™ç”¨ãƒšãƒ¼ã‚¸ã«ãƒ­ã‚°ã‚¤ãƒ³ã—ã¦ãã ã•ã„ã€‚</p>
 	
 </div>
 
@@ -53,11 +54,11 @@ $(function(){
 
 <div class="send-button">
 
-<input type="text" class="start" id="answer" placeholder="”¼Šp”Žš‚Å“ü—Í">
+<input type="text" class="start" id="answer" placeholder="åŠè§’æ•°å­—ã§å…¥åŠ›">
 <br>
 <input type="button" id="send" onClick="link2()" style="display:none">
 
-<label class="label-send" for="send"><span>‘—M</span></label>
+<label class="label-send" for="send"><span>é€ä¿¡</span></label>
 
 
 </div>
@@ -73,5 +74,6 @@ $(function(){
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="index.js"></script>
+  </body>
   </body>
 

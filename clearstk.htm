@@ -1,22 +1,23 @@
 <!DOCTYPE html5>
-<html lang=�gja�h>
+<html lang=“ja”>
+<meta charset="UTF-8">
 
 <head>
     <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>�����y�[�W</title>
+    <title>発注ページ</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQuery�{�̂̓ǂݍ��� -->
-	 <link rel="stylesheet" href="index.css"�@type="text/css" media="all">
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index.css"　type="text/css" media="all">
 	 <script src="index.js" defer></script>
 
-<!-- �������N�̃X���[�Y�X�N���[�� -->
+<!-- ＃リンクのスムーズスクロール -->
 <script>
 $(function(){
-   // #�Ŏn�܂郊���N���N���b�N��������s����܂�
+   // #で始まるリンクをクリックしたら実行されます
    $('a[href^=#]').click(function() {
-      // �X�N���[���̑��x
-      var speed = 400; // �~���b�ŋL�q
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -40,23 +41,23 @@ $(function(){
 
 	<p class="bun"><img src="image/clear.png" class="title"></p>
 
-	<p class="start-bun">���̃{�^�����犴�z���|�X�g�ł��܂��B<br>������ȏ�̉B���v�f�͂���܂���B</p>
+	<p class="start-bun">下のボタンから感想をポストできます。<br>※これ以上の隠し要素はありません。</p>
 
 <div class="send-button">
 
 <input type="button" id="tweet" onClick="link()" style="display:none">
 
-<label class="post" for="tweet"><span>���z���|�X�g</span></label>
+<label class="post" for="tweet"><span>感想をポスト</span></label>
 
 </div>
 
-<p class="start-bun">���Љ��L�̃{�^������A<br>�A���P�[�g�̉񓚂ɂ����͂��������B</p>
+<p class="start-bun">ぜひ下記のボタンから、<br>アンケートの回答にご協力ください。</p>
 
 <div class="send-button">
 
 <input type="button" id="finish" onClick="link()" style="display:none">
 
-<label class="play-ex" for="finish"><span>�A���P�[�g�ɉ�</span></label>
+<label class="play-ex" for="finish"><span>アンケートに回答</span></label>
 
 </div>
 
