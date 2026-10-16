@@ -3,8 +3,8 @@ const ex = document.getElementById('ex');
 
 
 const answers = {
-    q1: "�s���N",
-    q2: "�����Ȃ�"
+    q1: "ピンク",
+    q2: "見えない"
 };
 
 document.getElementById("send").addEventListener("click", () => {
@@ -28,7 +28,7 @@ document.getElementById("send").addEventListener("click", () => {
     block: "end"
 });
     }else{
-        alert("�ǂ����Ԉ���Ă���悤��");
+        alert("どうやら間違っているようだ");
     }
 
 });

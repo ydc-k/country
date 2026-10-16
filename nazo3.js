@@ -4,14 +4,14 @@ var answer = document.getElementById('answer');
 
 button.addEventListener('click', () => {
 
-if (answer.value == 'ƒCƒJ')  {
+if (answer.value == 'ã‚¤ã‚«')  {
 	ex.classList.add('is-active');
 	ex.scrollIntoView({
     behavior: "smooth",
     block: "end"
 });
 } else {
-alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
 }
 
 });

@@ -3,9 +3,9 @@ const ex = document.getElementById('ex');
 
 
 const answers = {
-    q1: "“_ü",
-    q2: "’†",
-    q3: "‹t‚³‚ÉŒ©‚¦‚é",
+    q1: "ç‚¹ç·š",
+    q2: "ä¸­",
+    q3: "é€†ã•ã«è¦‹ãˆã‚‹",
 };
 
 document.getElementById("send").addEventListener("click", () => {
@@ -29,7 +29,7 @@ document.getElementById("send").addEventListener("click", () => {
     block: "end"
 });
     }else{
-        alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+        alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
     }
 
 });

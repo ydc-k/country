@@ -4,10 +4,10 @@ var answer = document.getElementById('answer');
 button.addEventListener('click', () => {
 
 if (answer.value == '2')  {
-alert("”FØ‚ªŠ®—¹‚µ‚Ü‚µ‚½B");
+alert("èªè¨¼ãŒå®Œäº†ã—ã¾ã—ãŸã€‚");
 location.href = "1tltsny.htm"
 } else {
-alert("”FØ‚ÉŽ¸”s‚µ‚Ü‚µ‚½BÄ“x‰ð‚«‚È‚¨‚µ‚Ä‚­‚¾‚³‚¢B");
+alert("èªè¨¼ã«å¤±æ•—ã—ã¾ã—ãŸã€‚å†åº¦è§£ããªãŠã—ã¦ãã ã•ã„ã€‚");
 }
 
 });

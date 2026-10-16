@@ -3,9 +3,9 @@ const ex = document.getElementById('ex');
 
 
 const answers = {
-    q1: "—Î",
-    q2: "‚Ð‚Æ‚Â",
-@@q3: "i‚ñ‚Å"
+    q1: "ç·‘",
+    q2: "ã²ã¨ã¤",
+ã€€ã€€q3: "é€²ã‚“ã§"
 };
 
 document.getElementById("send").addEventListener("click", () => {
@@ -29,7 +29,7 @@ document.getElementById("send").addEventListener("click", () => {
     block: "end"
 });
     }else{
-        alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+        alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
     }
 
 });
@@ -37,6 +37,11 @@ document.getElementById("send").addEventListener("click", () => {
 document.getElementById("next").addEventListener("click", () => {
 	location.href = "5rvscnr.htm"
 });
+
+
+
+
+
 
 
 

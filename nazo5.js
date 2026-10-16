@@ -1,8 +1,8 @@
 
 
 const answers = {
-    q1: "Ô",
-    q2: "@"
+    q1: "èµ¤",
+    q2: "ã€€"
 };
 
 document.getElementById("send").addEventListener("click", () => {
@@ -22,14 +22,14 @@ document.getElementById("send").addEventListener("click", () => {
 const button = document.getElementById('send');
 	var answer = document.getElementById('answer');
 
-    if(correct && answer.value == 'ƒgƒEƒV'){
+    if(correct && answer.value == 'ãƒˆã‚¦ã‚·'){
 	ex.classList.add('is-active');
 	ex.scrollIntoView({
     behavior: "smooth",
     block: "end"
 });
     }else{
-        alert("‚Ç‚¤‚â‚çŠÔˆá‚Á‚Ä‚¢‚é‚æ‚¤‚¾");
+        alert("ã©ã†ã‚„ã‚‰é–“é•ã£ã¦ã„ã‚‹ã‚ˆã†ã ");
     }
 
 });
