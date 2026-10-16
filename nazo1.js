@@ -3,8 +3,9 @@ const ex = document.getElementById('ex');
 
 
 const answers = {
-    q1: "ÔF",
-    q2: "Œ©‚¦‚È‚¢"
+    q1: "“_ü",
+    q2: "’†",
+    q3: "‹t‚³‚ÉŒ©‚¦‚é",
 };
 
 document.getElementById("send").addEventListener("click", () => {

@@ -35,14 +35,13 @@ $(function(){
 
 <div class="main">
 
-	<p class="bun"><img src="image/title.png" class="nazo"></p>
+	<p class="bun"><img src="image/title1.png" class="title"></p>
 
-	<p class="bun">まずは調査対象の回答結果を確認しましょう。<br>想定解とは異なる部分があるはずです。</p>
-	<p class="bun">その点から、異星人の特徴を突き止めてください。</p>
-	<p class="bun">答えがわかったらページ下部から入力、送信してください。</p>
+	<p class="bun"><img src="image/story2.png" class="story"></p>
+
 	<p class="start-bun">残り　<font class="number">5</font>　人の調査対象がいます。</p>
 	<div class="nazo">
-	<img src="image/nazo1.png" class="nazo">
+	<img src="image/answer1.png" class="nazo">
 	</div>
 	
 </div>
@@ -50,18 +49,25 @@ $(function(){
 <div class="nyuryoku">
 
 <p class="bun">
-  この異星人は、<br>
+  この異星人は、
   <select class="blank" id="q1" required>
     <option value="" selected disabled>選択してください</option>
-    <option>赤色</option>
-    <option>黄色</option>
-    <option>青色</option>
+    <option>点線</option>
+    <option>直線</option>
+    <option>円</option>
+  </select>
+  の<br>
+  <select class="blank" id="q2" required>
+    <option value="" selected disabled>選択してください</option>
+    <option>右</option>
+    <option>中</option>
+    <option>左</option>
   </select>
   が
-　<select class="blank" id="q2" required>
+　<select class="blank" id="q3" required>
     <option value="" selected disabled>選択してください</option>
+    <option>逆さに見える</option>
     <option>見えない</option>
-    <option>1文字進む</option>
     <option>二重に見える</option>
   </select>
 　。
@@ -76,9 +82,9 @@ $(function(){
 
 <div class="exstart-bun" id="ex">
 
-<p class="bun">なるほど、その特徴だと...<br>この異星人である可能性が高いな。</p>
 <img src="image/profile1.png" class="nazo">
-<p class="bun">ありがとう！次の調査に進んでくれ。</p>
+<br>
+<img src="image/storycl.png" class="story">
 
 <input type="button" id="next" onClick="link()" style="display:none">
 

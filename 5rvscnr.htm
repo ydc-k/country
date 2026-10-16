@@ -1,0 +1,111 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+<head>
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>管理員ページ</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index.css"　type="text/css" media="all">
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="main">
+
+	<p class="bun"><img src="image/title1.png" class="title"></p>
+
+	<p class="bun"><img src="image/story3.png" class="story"></p>
+
+	<p class="start-bun">残り　<font class="number">1</font>　人の調査対象がいます。</p>
+	<div class="nazo">
+	<img src="image/answer5.png" class="nazo">
+	</div>
+	
+</div>
+
+<div class="nyuryoku">
+
+<p class="bun">
+  この異星人は
+  <input type="text" class="start2" id="answer" placeholder="カナ3文字">
+  ができる。その時、<br>
+ <select class="blank" id="q1" required>
+    <option value="" selected disabled>選択してください</option>
+    <option>赤</option>
+    <option>青</option>
+    <option>緑</option>
+　　<option>黄</option>
+    <option>ピンク</option>
+    <option>茶</option>
+　　<option>グレー</option>
+    <option>黒</option>
+  </select>
+　だけ
+　<select class="blank" id="q2" required>
+    <option value="" selected disabled>選択してください</option>
+　　<option>　</option>
+    <option>増えて</option>
+    <option>減って</option>
+    <option>進んで</option>
+　　<option>戻って</option>
+  </select>
+　見える。
+</p>
+
+<div class="send-button">
+
+<input type="button" id="send" onClick="link()" style="display:none">
+
+<label class="label-send" for="send"><span>送信</span></label>
+<p class="bun"></p>
+
+<div class="exstart-bun" id="ex">
+
+<img src="image/profile5.png" class="nazo">
+<br>
+<img src="image/storycl.png" class="story">
+
+<input type="button" id="next" onClick="link()" style="display:none">
+
+<label class="label-send" for="next"><span>次へ</span></label>
+<p class="bun"></p>
+
+
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="nazo5.js"></script>
+  </body>
+

@@ -44,9 +44,19 @@ color: #f24949;
 text-align: center;
 }
 
+img.title {
+text-align: center;
+width: 50%;
+}
+
 img.nazo {
 text-align: center;
 width: 80%;
+}
+
+img.story {
+text-align: center;
+width: 100%;
 }
 
 .blank{
@@ -207,6 +217,26 @@ display: inline-block;
 }
 
 .start::placeholder {
+    color: #666;
+}
+
+.start2 {
+    width: 20%;
+    padding: 8px 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.start2:focus {
+    outline: 1px solid #fff;
+}
+
+.start2::placeholder {
     color: #666;
 }
 
